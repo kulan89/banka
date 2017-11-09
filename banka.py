@@ -4,7 +4,7 @@ import curses
 
 baza = "banka1.db"
 
-class BancniTerminal:
+class BancniTerminal0:
     def __init__(self):
         self.oseba = None
         self.racun = None
@@ -68,5 +68,5 @@ class BancniTerminal:
         print("Izpis racunov za ", self.oseba)
         self.menu = "glavni"
         
-BancniTerminal()
+BancniTerminal0()
 
